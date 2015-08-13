@@ -1,0 +1,12 @@
+# Site settings
+title: approaching
+email: vgrato@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  There has got to be some pragmatic space between chasing down fads and being obstinate for the sake of it.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: approaching236 
+github_username:  approaching236
+
+# Build settings
+markdown: kramdown
