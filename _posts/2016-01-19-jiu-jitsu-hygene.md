@@ -19,10 +19,5 @@ Great thing about washcloths is that they don't really fall apart after a few we
 ## Gi
 Really don't let these sit around in a closed space. I like to wash two at a time to save a bit of water, but I'm honestly even on the fence about that at this point. Detergent in addition to OxyClean if there is blood and a bit of white vinegar pretty much always. White vinegar is like a dollar for a gallon and it will keep your gi from getting that funk I'm sure you've experienced. Keep the lid on the OxyClean.
 
-## Skin Stuff
-I'm not a doctor. If you are at all concerned about something go see a doctor. If it kind of stings, is about the size of a nickle and has dry edges it's probably ring worm. Go get athletes foot cream and/or see a doctor. Bro science says to use bleach on a cotton ball, but you should dilute it at least 50/50 or you'll just burn your skin. Or be sane and go see a doctor.
-If it's red, hot, painful and swollen. You have an infection. Go see a doctor. There is no bro science here. Go see a doctor because you probably need a prescription for a specific type of antibiotics. Jesus Christ please take all of them if they give you some.
-Honestly, it's too expensive mat time wise to not see a doctor if something comes up so just go so you can come back without causing somebody else to have to stay off the mats themselves.
-
 ## Conclusion
 There is some sort of a procedure here, but it's all a little part of doing this and if you miss any of it because you're lazy, shit happens.
