@@ -4,4 +4,11 @@ title: About
 permalink: /about/
 ---
 
-I'm a bridge builder. The stuff that I build might be a little boring, but it gets ever the more people where they need to be. Enterprise applications should be a little plain. Thats ok. If a bridge could just be a road we'd have less places we couldn't go. This blog should help make things a little bit more plain.
+My name's Vincent Grato and I play banjo and skate and hike and enjoy this fine city that is San Diego.
+I program and project plan and provision and alliterate.
+
+I'm a backend developer with most of my time in Python and Ruby
+I love good names, plain text files, simple user-serving design and good API's
+I've worked with data systems of a bunch of fun shapes and would love to see what y'all are working on.
+
+My [linkedin](https://www.linkedin.com/in/vgrato/) has my most recent 'general' resume
