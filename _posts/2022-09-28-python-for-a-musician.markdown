@@ -2,7 +2,8 @@
 layout: post
 title:  "Python for a Musician"
 date:   2022-09-28 16:10:49
-categories: python learner-page music math getting-started
+categories: post
+tags: python learner-page music math getting-started
 ---
 
 I recently made this gist for a friend. I invite you to print it out if you're a musician who would be interested in programming as part of your workflow in data management, composition, performance, hardware integration, experimentation or whatever else!
