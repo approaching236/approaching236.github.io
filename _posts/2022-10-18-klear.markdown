@@ -1,0 +1,62 @@
+---
+layout: post
+title:  "Multivariate Time Series Machine Learning with Klear"
+permalink: /klear/
+date:   2022-10-18 14:35:00
+categories: post
+tags: machine-learning analytic-equation explainable-ai pearson-r
+---
+
+A lot of the stuff I've built has been under NDA, but I'm allowed to talk about the outside form factor of what I built even if I'm not allowed to talk about the inner workings.
+
+This is something that I built on my own from whitepapers and the guidance and mentorship of [Ben Sadat](https://www.linkedin.com/in/bensadat/) and [Homa Karimabadi](https://www.linkedin.com/in/homa-karimabadi-8b2a932/) while working with Analytics Ventures.
+I'm particularly proud of it, and deeply grateful to Ben for his time and patience.
+
+I think it's super neat even if it's ironically a little hard to explain.
+
+## Input
+The program took data called multi-dimensional time series.
+Like a spreadsheet where all the columns were the same type of number.
+Think like the paper coming out of a polygraph test.
+
+## Training Data
+For each chunk (like a tab/page in the spreadsheet), there'd be a boolean, yes approve, no deny loan, etc.
+
+## Output
+The tool generates a model that's a polynomial in terms of the signals given.
+Clipping, outliers and renormalization handled automatically.
+
+## Automatic Feature Engineering
+Some joke that AI is an [unstructured pile of linear algebra](https://xkcd.com/1838/), and it kind of checks out, but also [Pearson](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient).
+I knew the machine was working correctly when I disallowed the `sin` function as one of the features to generate.
+It bubbled up the taylor series expansion perfectly.
+
+## Explainability
+
+This regression tool returned a fitting model to time-series data that was an analytic equation.
+Most machine learning these days comes in the form factor of a huge pile of matrix weights, and while I've heard some programmers say they can see patterns in the static, I'm dubious.
+So rather than a big QR code of what does this mean, the model would return an equation like: `3*X_1^2 + sin(X_4 + X_2)`
+
+This might not seem much better, but it's really good for [Sensitivity Analysis](https://en.wikipedia.org/wiki/Sensitivity_analysis).
+
+To some degree AI is a black box of undefined behavior and that scares some folks, rightfully so.
+This is being reflected in certain areas being legalised like loan application.
+
+If you're going to deny a loan, you need to be able to defend that choice with something better than "their last name sounded black", or "their address is in a historically black neighborhood" etc.
+If you're going to automate the process, you'd need a machine capable of giving better reasons as well.
+This is where the sensitivity analysis comes in, specifically [SHAP](https://towardsdatascience.com/using-shap-for-explainability-understand-these-limitations-first-1bed91c9d21).
+
+Stuff will still creep in, for sure.
+Like did you use historical training data that might exhibit some of the prejudices that you're trying to explicitly remove?
+Garbage In Garbage Out.
+Social mores do just change.
+Things need to be monitored and updated.
+
+But at least this particular machine would tell you how important each factor was in making the decision to give the users more insight into the choices affecting people's lives.
+
+## Wrapup
+Ultimately, the definition of what is 'explainable' is difficult to answer.
+The project struggled to find use cases consistent enough for specialized UX.
+What makes sense to some people might not to others, and it's really hard to see in 8 dimensions.
+I'm excited to see where this field goes!
+My guess is mixing a clever SHAP explorer with some good visualisations.

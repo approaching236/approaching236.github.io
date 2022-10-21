@@ -1,13 +1,15 @@
 ---
 layout: post
-title:  "Bocce Garden"
+title:  "Launching new domain! bocce.garden"
 date:   2022-10-17 18:10:00
 categories: post
 tags: jekyll github-pages outside
 ---
 
-One of my favorite things to do with people is to play this simple game called bocce.
+One of my favorite things to do with people is to play bocce.
+If you've never played before, you take turns throwing at a target ball trying to get the closest one.
 It's easy to learn, challenging to play and lets you get to know the space.
+
 I've got quite a few cherished memories walking around with people, acting dumb and yelling over a throw.
 
 I was hoping I might help some other folks have a few good afternoons.

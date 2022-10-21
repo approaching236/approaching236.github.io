@@ -4,3 +4,4 @@ _site
 *.swp
 *.swo
 vendor/*
+Gemfile.lock
