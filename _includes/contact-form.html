@@ -15,7 +15,7 @@ $( "form" ).submit(function( event ) {
     $.ajax({
         url: "https://qpwe3buke33ickvmxaw66bnaxm0bxenm.lambda-url.us-west-1.on.aws/",
         type: "Post",
-        data: { subscriber_email: $( "form" ).serializeArray()[0]["value"] },
+        data: JSON.stringify({ 'subscriber_email': $( "form" ).serializeArray()[0]["value"] }),
         success: function( response ) {
             window.location.href = "/mailer/destination.html";
           },
