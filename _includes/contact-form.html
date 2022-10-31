@@ -20,7 +20,11 @@ $( "form" ).submit(function( event ) {
             window.location.href = "/mailer/destination.html";
           },
         crossDomain: true,
-        contentType: 'application/json'
+        headers: {
+            "Access-Control-Allow-Headers": "*",
+            "Access-Control-Allow-Methods": "OPTIONS,POST,GET",
+            "Content-Type": "application/json"
+          }
       });
     event.preventDefault();
 });
