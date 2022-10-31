@@ -12,14 +12,14 @@
 
 <script type="text/javascript">
 $( "form" ).submit(function( event ) {
-    // alert(JSON.stringify($( "form" ).serializeArray()[0]["value"]));
-    $.post(
-        "https://qpwe3buke33ickvmxaw66bnaxm0bxenm.lambda-url.us-west-1.on.aws/",
-        JSON.stringify({ subscriber_email: $( "form" ).serializeArray()[0]["value"] }),
-        function( data ) {
-          $( ".result" ).html( data );
+    $.ajax(
+        type: "Post",
+        url: "https://qpwe3buke33ickvmxaw66bnaxm0bxenm.lambda-url.us-west-1.on.aws/",
+        data: JSON.stringify({ subscriber_email: $( "form" ).serializeArray()[0]["value"] }),
+        success: function( response ) {
+            window.location.href = "/mailer/destination.html";
           },
-        "json",
+        dataType: "json",
       );
     event.preventDefault();
 });
