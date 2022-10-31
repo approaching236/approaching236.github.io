@@ -11,22 +11,24 @@
 <result></result>
 
 <script type="text/javascript">
-$( "form" ).submit(function( event ) {
-    $.ajax({
-        url: "https://qpwe3buke33ickvmxaw66bnaxm0bxenm.lambda-url.us-west-1.on.aws/",
-        type: "Post",
-        data: JSON.stringify({ 'subscriber_email': $( "form" ).serializeArray()[0]["value"] }),
-        success: function( response ) {
-            window.location.href = "/mailer/destination.html";
-          },
-        crossDomain: true,
-        headers: {
-            "Access-Control-Allow-Headers": x-requested-with,
-            "Access-Control-Allow-Methods": "OPTIONS,POST,GET",
-            'X-Requested-With': 'XMLHttpRequest',
-            "Content-Type": "application/json"
-          }
-      });
-    event.preventDefault();
+$( document ).ready(function() {
+    $( "form" ).submit(function( event ) {
+        event.preventDefault();
+        $.ajax({
+            url: "https://sdsnw5q7m5.execute-api.us-west-1.amazonaws.com/prod/addToList",
+            type: "Post",
+            data: JSON.stringify({ 'subscriber_email': $( "form" ).serializeArray()[0]["value"] }),
+            success: function( event ) {
+                window.location.href = "/mailer/destination.html";
+              },
+            crossDomain: true,
+            headers: {
+                "Access-Control-Allow-Headers": "x-requested-with",
+                "Access-Control-Allow-Methods": "OPTIONS,POST,GET",
+                'X-Requested-With': 'XMLHttpRequest',
+                "Content-Type": "application/json"
+            }
+        });
+    });
 });
 </script>
