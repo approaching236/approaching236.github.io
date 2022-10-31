@@ -21,8 +21,9 @@ $( "form" ).submit(function( event ) {
           },
         crossDomain: true,
         headers: {
-            "Access-Control-Allow-Headers": "*",
+            "Access-Control-Allow-Headers": x-requested-with,
             "Access-Control-Allow-Methods": "OPTIONS,POST,GET",
+            'X-Requested-With': 'XMLHttpRequest',
             "Content-Type": "application/json"
           }
       });
