@@ -1,0 +1,26 @@
+<form id="mailer" action="destination.html">
+
+  <label>
+    Add an email to the mailing list:
+    <input type="email" name="subscriber_email">
+  </label>
+
+  <button class="submit">Send</button>
+</form>
+
+<result></result>
+
+<script type="text/javascript">
+$( "form" ).submit(function( event ) {
+    // alert(JSON.stringify($( "form" ).serializeArray()[0]["value"]));
+    $.post(
+        "https://qpwe3buke33ickvmxaw66bnaxm0bxenm.lambda-url.us-west-1.on.aws/",
+        JSON.stringify({ subscriber_email: $( "form" ).serializeArray()[0]["value"] }),
+        function( data ) {
+          $( ".result" ).html( data );
+          },
+        "json",
+      );
+    event.preventDefault();
+});
+</script>

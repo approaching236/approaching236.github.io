@@ -24,4 +24,4 @@ I've worked on data systems with a bunch of [fun shapes](/neat-projects/) and wo
 
 My [linkedin](https://www.linkedin.com/in/vgrato/) has my most recent 'general' resume.
 
-![Profile](/assets/profile.jpg)
+![Profile](/assets/images/profile.jpg)
