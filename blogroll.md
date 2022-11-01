@@ -10,7 +10,5 @@ permalink: /blogroll/
 -
 
 # [typologer.net](https://www.typologer.net)
-# [bocce.garden](https://www.bocce.garden)
-# [longboardian.com](https://www.longboardian.com)
 # [sdartscene.net](https://www.sdartscene.net)
 
