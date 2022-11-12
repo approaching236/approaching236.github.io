@@ -1,8 +1,14 @@
 ---
 layout: page
-title: Vincent Grato
+title: About
 permalink: /about/
 ---
+
+## Vincent Grato
+
+- [linkedin](https://www.linkedin.com/in/vgrato/)
+- [vincent\_grato\_resume.pdf](/assets/vincent_grato_2022.pdf)
+
 
 I play banjo and skate and hike and enjoy this fine city that is San Diego.
 I program and project plan and provision and alliterate.
@@ -22,6 +28,5 @@ I also like to teach and mentor where I can.
 
 I've worked on data systems with a bunch of [fun shapes](/neat-projects/) and would love to see what y'all are working on.
 
-My [linkedin](https://www.linkedin.com/in/vgrato/) has my most recent 'general' resume.
 
 ![Profile](/assets/images/profile.jpg)

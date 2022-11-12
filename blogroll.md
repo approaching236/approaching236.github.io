@@ -11,4 +11,5 @@ permalink: /blogroll/
 
 # [typologer.net](https://www.typologer.net)
 # [sdartscene.net](https://www.sdartscene.net)
+# [longboardian.com](https://www.longboardian.com)
 
