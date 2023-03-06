@@ -9,11 +9,9 @@ tags: foobar google interview code-challenge
 
 I was working out of a coffee shop a while back and I got a prompt while searching Google to try and apply for a job with Google.
 
-I put a fair bit of work into it and am proud of the answers I got to some really challenging questions.
+I put a fair bit of work into it (check the dates!) and am proud of the answers I got to some really challenging questions.
 
-I did get to the last level. I was able to find only an inefficient solution, not an analytic solution as one would hope.
-
-While I can't find it in myself to call that failure, Google has not reached out to me.
+I got to the last level! I was able to find only an inefficient solution, not an analytic solution as one would hope.
 
 I was far more interested in getting to the next level than documentation, but I do have a few things saved:
 ![foobar screenshot](/assets/images/foobar_screenshot.png)

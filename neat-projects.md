@@ -6,6 +6,9 @@ permalink: /neat-projects/
 
 Forgive the NDA vagueness, but here's a sample of some stuff I'm proud I got to work on in my travels.
 
+# foobar.withgoogle
+I got a suprise coding challenge from the void. See: [foobar.withgoogle.com](/foobar.withgoogle/)
+
 # Analytics Ventures Klear
 Pattern matcher for time series data with model decision explainability features.
 
