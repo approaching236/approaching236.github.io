@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "foobar.withgoogle"
+permalink: /foobar.withgoogle/
 date:   2023-03-06 15:08:49
-categories: 
+categories: post
+tags: foobar google interview code-challenge
 ---
 
 I was working out of a coffee shop a while back and I got a prompt while searching Google to try and apply for a job with Google.
