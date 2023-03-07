@@ -7,7 +7,7 @@ permalink: /about/
 ## Vincent Grato
 
 - [linkedin](https://www.linkedin.com/in/vgrato/)
-- [vincent\_grato\_resume.pdf](/assets/vincent_grato_2022.pdf)
+- [vincent\_grato\_resume.pdf](/assets/vincent_grato_2023.pdf)
 
 
 I play banjo and skate and hike and enjoy this fine city that is San Diego.
